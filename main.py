@@ -209,7 +209,7 @@ async def remove(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ─── MAIN ────────────────────────────────────────────────────────────────────────
 def main():
-    TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+    TOKEN = "7853302211:AAG_m4oH6a_cd3j83OF1X8suR59canyMR_Q"
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
